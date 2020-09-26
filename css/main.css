@@ -1089,11 +1089,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	/* background: #ffffff; */
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	/* left: 90px; */
 	top: 0;
 }
 header .logo {
@@ -1288,7 +1288,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/3.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
