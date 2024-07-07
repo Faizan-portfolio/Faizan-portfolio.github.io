@@ -1498,12 +1498,46 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 15rem;
+	/* height: 15rem;
 	width: 15rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
-	float: left;
+	float: left; */
+	display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    height: 15rem;
 }
+/* Center the profile image */  
+/* .center-img {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    height: 15rem; /* Keeps the height as it is */  
+}  
+   */
+/* Skills Section */  
+.skills-section {  
+    margin-top: 20px;  
+}  
+  
+.skills-section h4 {  
+    font-family: "poppins-bold", sans-serif;  
+    font-size: 1.6rem;  
+    color: #313131;  
+    margin-bottom: 10px;  
+}  
+  
+.skill-box {  
+    background-color: #f0f0f0; /* Add your desired background color */  
+    color: #313131;  
+    padding: 10px;  
+    margin-bottom: 20px;  
+    font-size: 1.5rem;  
+    border-radius: 4px;  
+    font-family: "poppins-regular", sans-serif;  
+}  
+
 .intro-info .lead {
 	text-align: left;
 	padding-left: 13rem;
